@@ -12,25 +12,25 @@ export default function Navbar() {
         <div className="text-sm lg:flex-grow">
           <a
             href="#responsive-header"
-            className="block mt-4 lg:inline-block lg:mt-0 text-blue-400 hover:text-black mr-4 font-poppins"
+            className="block mt-4 lg:inline-block lg:mt-0 text-blue-500 hover:text-black mr-4 font-poppins"
           >
             Home
           </a>
           <a
             href="#responsive-header"
-            className="block mt-4 lg:inline-block lg:mt-0 text-blue-400 hover:text-black mr-4 font-poppins"
+            className="block mt-4 lg:inline-block lg:mt-0 text-blue-500 hover:text-black mr-4 font-poppins"
           >
             About
           </a>
           <a
             href="#responsive-header"
-            className="block mt-4 lg:inline-block lg:mt-0 text-blue-400 hover:text-black mr-4 font-poppins"
+            className="block mt-4 lg:inline-block lg:mt-0 text-blue-500 hover:text-black mr-4 font-poppins"
           >
             Signup
           </a>
         </div>
         <div>
-          <button class="text-white bg-blue-500 btn hover:bg-blue-700 font-poppins">
+          <button class="text-white bg-blue-500 btn hover:bg-blue-600 font-poppins">
             Try it!
           </button>
         </div>
