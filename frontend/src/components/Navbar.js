@@ -1,11 +1,14 @@
 import React from "react";
-
+import { MdMarkChatRead } from "react-icons/md";
 export default function Navbar() {
   return (
     <nav className="flex items-center justify-between flex-wrap bg-white-800 p-6 shadow-none rounded-lg">
       <div className="flex items-center flex-shrink-0 text-black mr-6">
+        <div>
+          <MdMarkChatRead />
+        </div>
         <span className="font-semibold text-xl tracking-tight font-poppins">
-          InviChat
+          &nbsp;InviChat
         </span>
       </div>
       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
