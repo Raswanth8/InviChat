@@ -23,6 +23,15 @@ export default function Hero() {
         </button>
       </div>
       <br />
+      <div class="w-full mx-auto mt-20 text-center md:w-10/12">
+        <img
+          src="https://miro.medium.com/max/1400/1*FfHDyP41-y3oQ3mIXqD6pQ.png"
+          class="w-full rounded-lg shadow-2xl"
+        />
+      </div>
+      <br />
+      <br />
+      <br />
     </div>
   );
 }
