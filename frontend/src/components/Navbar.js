@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <nav className="flex items-center justify-between flex-wrap bg-white-800 p-6 shadow-none rounded-lg">
       <div className="flex items-center flex-shrink-0 text-black mr-6">
-        <div>
+        <div className="text-xl">
           <MdMarkChatRead />
         </div>
         <span className="font-semibold text-xl tracking-tight font-poppins">
