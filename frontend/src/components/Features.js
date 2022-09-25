@@ -27,7 +27,7 @@ export default function Features() {
           <h3 class="mb-3 text-lg leading-tight text-black font-inter">
             Lorem ipsum dolor sit
           </h3>
-          <p class="text-base leading-relaxed text-gray-600 font-poppins">
+          <p class="text-base leading-relaxed text-gray-600 font-poppins text-justify">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
             totam ea ex, nostrum amet quo commodi, blanditiis impedit soluta,
             magnam in assumenda nisi illo quisquam ducimus fugiat facere. Quo,
@@ -59,7 +59,7 @@ export default function Features() {
           <h3 class="mb-3 text-lg leading-tight text-black font-inter">
             Lorem ipsum dolor sit
           </h3>
-          <p class="text-base leading-relaxed text-gray-600 font-poppins">
+          <p class="text-base leading-relaxed text-gray-600 font-poppins text-justify">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
             totam ea ex, nostrum amet quo commodi, blanditiis impedit soluta,
             magnam in assumenda nisi illo quisquam ducimus fugiat facere. Quo,
@@ -85,7 +85,7 @@ export default function Features() {
           <h3 class="mb-3 text-lg leading-tight text-black font-inter">
             Lorem ipsum dolor sit
           </h3>
-          <p class="text-base leading-relaxed text-gray-600 font-poppins">
+          <p class="text-base leading-relaxed text-gray-600 font-poppins text-justify">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
             totam ea ex, nostrum amet quo commodi, blanditiis impedit soluta,
             magnam in assumenda nisi illo quisquam ducimus fugiat facere. Quo,
