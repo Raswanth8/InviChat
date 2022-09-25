@@ -17,9 +17,12 @@ export default function Hero() {
         tempora provident quod possimus odio sit. Deleniti, earum in!
       </p>
       <br />
-      <button className="text-white bg-blue-500 btn hover:bg-blue-600 font-poppins">
-        Try our WhatsApp Bot ⮕
-      </button>
+      <div>
+        <button className="text-white bg-blue-500 btn hover:bg-blue-600 font-poppins">
+          Try our WhatsApp Bot ⮕
+        </button>
+      </div>
+      <br />
     </div>
   );
 }
