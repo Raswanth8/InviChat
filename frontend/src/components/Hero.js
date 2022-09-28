@@ -25,7 +25,7 @@ export default function Hero() {
       <br />
       <div class="w-full mx-auto mt-20 text-center md:w-10/12">
         <img
-          src="https://miro.medium.com/max/1400/1*FfHDyP41-y3oQ3mIXqD6pQ.png"
+          src="https://i.ibb.co/KhnV9yh/Screenshot-2022-06-04-at-2-28-22-PM.png"
           class="w-full rounded-lg shadow-2xl"
         />
       </div>
