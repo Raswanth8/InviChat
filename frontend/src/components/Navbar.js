@@ -1,5 +1,6 @@
 import React from "react";
 import { MdMarkChatRead } from "react-icons/md";
+import { Link } from "react-scroll";
 export default function Navbar() {
   return (
     <nav className="flex items-center justify-between flex-wrap bg-white-800 p-6 shadow-none rounded-lg">
@@ -23,13 +24,15 @@ export default function Navbar() {
             href="#responsive-header"
             className="block mt-4 lg:inline-block lg:mt-0 text-blue-500 hover:text-black mr-4 font-poppins"
           >
-            About
+            <Link to="feature-page" smooth={true} offset={-70} duration={1200}>
+              About
+            </Link>
           </a>
           <a
             href="#responsive-header"
             className="block mt-4 lg:inline-block lg:mt-0 text-blue-500 hover:text-black mr-4 font-poppins"
           >
-            Signup
+            Featured Products
           </a>
         </div>
         <div>

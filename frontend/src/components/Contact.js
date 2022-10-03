@@ -53,7 +53,7 @@ export default function Contact() {
           </p>
           <a
             class="flex mb-3 text-sm font-medium text-gray-800 transition md:mb-2 hover:text-blue-500 font-poppins"
-            href="#"
+            href="feature-page"
           >
             About Us
           </a>

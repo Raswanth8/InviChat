@@ -6,7 +6,9 @@ export default function Hero() {
     <div className="flex flex-col items-center ">
       <br />
       <p className="text-2xl font-inter">
-        The Ultimate Inventory Management Platform
+        The Ultimate&nbsp;
+        <text className=" italic text-blue-500">Inventory Management</text>
+        &nbsp; Platform
       </p>
       <br />
       <h1 className="text-6xl font-bold font-poppins">InviChat</h1>
