@@ -32,7 +32,9 @@ export default function Navbar() {
             href="#responsive-header"
             className="block mt-4 lg:inline-block lg:mt-0 text-blue-500 hover:text-black mr-4 font-poppins"
           >
-            Featured Products
+            <Link to="prod-display" smooth={true} offset={-70} duration={1200}>
+              Featured Products
+            </Link>
           </a>
         </div>
         <div>

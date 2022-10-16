@@ -82,7 +82,7 @@ export default function Contact() {
           Built with ❤️ by Raswanth
         </p>
         <p class="mb-0 text-xs text-left text-gray-600 md:mb-0 font-poppins">
-          © 2021 InviChat. All rights reserved.
+          © 2022 InviChat. All rights reserved.
         </p>
       </div>
     </footer>
