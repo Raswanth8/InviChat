@@ -43,6 +43,7 @@ const Member = (props) => {
     padding-bottom: ${(props) => props.bottom}px;
     max-width: 80%;
     white-space: pre-wrap;
+    font-family: "Poppins", sans-serif;
   `;
 
   Text.defaultProps = {
@@ -52,8 +53,8 @@ const Member = (props) => {
 
   return (
     <Card>
-      <ProfilePicture src={props.imagePath} alt="faculty image here" />
-      <Text weight={600} size={1.2} color={"#005F73"}>
+      <ProfilePicture src={props.imagePath} alt="product image here" />
+      <Text weight={600} size={1.2} color={"#3482F6"}>
         {props.name}
       </Text>
       <Text size={1.1} color={"#353839"} bottom={0}>
@@ -61,16 +62,16 @@ const Member = (props) => {
       </Text>
       <div>
         {" "}
-        <strong>Quantity: </strong>
+        <strong className="text-black font-inter">Quantity: </strong>
       </div>
-      <Text size={1} color="#52445f">
+      <Text size={1} color="#52445f" className="font-inter">
         {props.quantity}
       </Text>
       <div>
         {" "}
-        <strong>Price: </strong>
+        <strong className="text-black font-inter">Price: </strong>
       </div>
-      <Text size={1} color="#52445f">
+      <Text size={1} color="#52445f" className="font-inter">
         {props.price}
       </Text>
     </Card>

@@ -3,7 +3,7 @@ import React from "react";
 export default function Partners() {
   return (
     <div className="flex flex-col items-center">
-      <p className="text-3xl font-inter">
+      <p className="text-3xl font-inter text-black">
         Our&nbsp;
         <text className=" italic text-blue-500">Partner</text>&nbsp; Websites
       </p>

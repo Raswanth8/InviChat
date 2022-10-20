@@ -4,7 +4,7 @@ export default function Features() {
   return (
     <section id="feature-page">
       <div className="flex flex-col items-center">
-        <p className="text-3xl font-inter">
+        <p className="text-3xl font-inter text-black">
           Our&nbsp;
           <text className=" italic text-blue-500">Product</text>&nbsp; Features
         </p>
@@ -26,13 +26,13 @@ export default function Features() {
               />
             </svg>
             <h3 class="mb-3 text-lg leading-tight text-black font-inter">
-              Lorem ipsum dolor sit
+              Abstracted System Design
             </h3>
             <p class="text-base leading-relaxed text-gray-600 font-poppins text-justify">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
-              totam ea ex, nostrum amet quo commodi, blanditiis impedit soluta,
-              magnam in assumenda nisi illo quisquam ducimus fugiat facere. Quo,
-              suscipit?
+              Our system is designed in a way that operations on your inventory
+              would be automated using abstracted microservice and cloud
+              technologies to maximize your sales and profits by reaching out
+              the targeted customers.
             </p>
           </div>
           <div>
@@ -58,13 +58,13 @@ export default function Features() {
               />
             </svg>
             <h3 class="mb-3 text-lg leading-tight text-black font-inter">
-              Lorem ipsum dolor sit
+              Powerful Recommendation Engine
             </h3>
             <p class="text-base leading-relaxed text-gray-600 font-poppins text-justify">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
-              totam ea ex, nostrum amet quo commodi, blanditiis impedit soluta,
-              magnam in assumenda nisi illo quisquam ducimus fugiat facere. Quo,
-              suscipit?
+              A hybrid approach of content-based and collaborative filtering are
+              used on both text and graphic data passed inside the system, to
+              provide the best recommendations to the users using neural
+              networks and machine learning algorithms.
             </p>
           </div>
           <div>
@@ -84,13 +84,13 @@ export default function Features() {
               />
             </svg>
             <h3 class="mb-3 text-lg leading-tight text-black font-inter">
-              Lorem ipsum dolor sit
+              User Analytics and Privacy
             </h3>
             <p class="text-base leading-relaxed text-gray-600 font-poppins text-justify">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
-              totam ea ex, nostrum amet quo commodi, blanditiis impedit soluta,
-              magnam in assumenda nisi illo quisquam ducimus fugiat facere. Quo,
-              suscipit?
+              Blockchain technology is used to ensure the privacy of the users
+              and sellers through the use of distibuted storage and smart
+              contracts. The activity of the users is also analyzed to provide
+              insights for further optimization.
             </p>
           </div>
         </section>

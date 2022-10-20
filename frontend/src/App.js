@@ -32,9 +32,11 @@ function App() {
 
   if (!DataisLoaded)
     return (
-      <>
-        <h1> Pleses wait some time.... </h1>{" "}
-      </>
+      <div className="flex flex-col items-center">
+        <p className="text-3xl font-inter text-black font-semibold">
+          Please wait while we load the products for you!
+        </p>
+      </div>
     );
 
   const productList = data.map((product, index) => {
@@ -56,7 +58,7 @@ function App() {
       <Navbar />
       <Hero />
       <Features />
-      <p className="text-3xl font-inter">
+      <p id="prod-display" className="text-3xl font-inter text-black">
         Current&nbsp;
         <text className=" italic text-blue-500">Trending</text>&nbsp; Products
       </p>
