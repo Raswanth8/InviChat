@@ -5,14 +5,69 @@ import Partners from "./components/Partners";
 import Features from "./components/Features";
 import ProductList from "./components/ProductList";
 import Contact from "./components/Contact";
+import React, { useEffect, useState } from "react";
+import axios from "axios";
+import { Grid } from "@mui/material";
 
 function App() {
+  const [data, setData] = useState(null);
+  const [DataisLoaded, setDataLoaded] = useState(false);
+
+  useEffect(() => {
+    function fetchProducts() {
+      axios
+        .get("https://amazon-sambhav-website-server.herokuapp.com/getProducts")
+        .then((response) => {
+          console.log(response.data);
+          setData(response.data);
+          setDataLoaded(true);
+        })
+        .catch((error) => {
+          console.log(error);
+        });
+    }
+
+    fetchProducts();
+  }, []);
+
+  if (!DataisLoaded)
+    return (
+      <>
+        <h1> Pleses wait some time.... </h1>{" "}
+      </>
+    );
+
+  const productList = data.map((product, index) => {
+    return (
+      <Grid item xs={3} key={index}>
+        <ProductList
+          imagePath={product.productImages[0]}
+          name={product.productName}
+          Description={product.productDescription}
+          price={product.productPrice}
+          quantity={product.productQuantity}
+        />
+      </Grid>
+    );
+  });
+
   return (
     <div className="App">
       <Navbar />
       <Hero />
       <Features />
-      <ProductList />
+      <p className="text-3xl font-inter">
+        Current&nbsp;
+        <text className=" italic text-blue-500">Trending</text>&nbsp; Products
+      </p>
+      <br />
+      <div>
+        <Grid container spacing={2} className="details">
+          {productList}
+        </Grid>
+      </div>
+      <br />
+      <br />
       <Partners />
       <Contact />
     </div>
