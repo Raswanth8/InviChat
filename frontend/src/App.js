@@ -16,7 +16,7 @@ function App() {
   useEffect(() => {
     function fetchProducts() {
       axios
-        .get("https://amazon-sambhav-website-server.herokuapp.com/getProducts")
+        .get("https://invichat-website-server.azurewebsites.net/getProducts")
         .then((response) => {
           console.log(response.data);
           setData(response.data);
