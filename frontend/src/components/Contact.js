@@ -79,7 +79,7 @@ export default function Contact() {
       </div>
       <div class="flex flex-col items-start justify-between pt-10 mt-10 border-t border-gray-100 md:flex-row md:items-center">
         <p class="mb-2 text-xs text-left text-gray-600 md:mb-0 font-poppins">
-          Built with ❤️ by Raswanth
+          Built with ❤️ by Team InviChat
         </p>
         <p class="mb-0 text-xs text-left text-gray-600 md:mb-0 font-poppins">
           © 2022 InviChat. All rights reserved.

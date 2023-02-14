@@ -32,8 +32,9 @@ export default function Hero() {
 
       <div class="w-full mx-auto mt-20 text-center md:w-10/12">
         <img
-          src="https://drive.google.com/uc?export=view&id=1M0PD82Cg9y7ryzabzrB55IZGPGYZjxox"
+          src="https://i.ibb.co/Yc1vd6f/main.png"
           class="w-full rounded-lg shadow-2xl"
+          alt="InviChat"
         />
       </div>
       <br />

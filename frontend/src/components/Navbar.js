@@ -1,6 +1,8 @@
 import React from "react";
 import { MdMarkChatRead } from "react-icons/md";
-import { Link } from "react-scroll";
+import { Link as LinkScroll } from "react-scroll";
+import { Link } from "react-router-dom";
+
 export default function Navbar() {
   return (
     <nav className="flex items-center justify-between flex-wrap bg-white-800 p-6 shadow-none rounded-lg">
@@ -24,18 +26,36 @@ export default function Navbar() {
             href="#responsive-header"
             className="block mt-4 lg:inline-block lg:mt-0 text-blue-500 hover:text-black mr-4 font-poppins"
           >
-            <Link to="feature-page" smooth={true} offset={-70} duration={1200}>
+            <LinkScroll
+              to="feature-page"
+              smooth={true}
+              offset={-70}
+              duration={1200}
+            >
               About
-            </Link>
+            </LinkScroll>
           </a>
           <a
             href="#responsive-header"
             className="block mt-4 lg:inline-block lg:mt-0 text-blue-500 hover:text-black mr-4 font-poppins"
           >
-            <Link to="prod-display" smooth={true} offset={-70} duration={1200}>
+            <LinkScroll
+              to="prod-display"
+              smooth={true}
+              offset={-70}
+              duration={1200}
+            >
               Featured Products
-            </Link>
+            </LinkScroll>
           </a>
+          <div
+            href="#responsive-header"
+            className="block mt-4 lg:inline-block lg:mt-0 text-blue-500 hover:text-black mr-4 font-poppins"
+          >
+            <Link to="/seller" smooth={true} offset={-70} duration={1200}>
+              Seller Portal
+            </Link>
+          </div>
         </div>
         <div>
           <button class="text-white bg-blue-500 btn hover:bg-blue-600 font-poppins">
