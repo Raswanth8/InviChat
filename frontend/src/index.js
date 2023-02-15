@@ -5,7 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import SellerView from "./components/sellerView/sellerView";
-import AdminDashboard from "./components/sellerView/adminPanel";
+import AdminDashboard from "./components/sellerView/AdminPanel";
 // import Products from "./components/sellerView/Products";
 // import Orders from "./components/sellerView/Orders";
 

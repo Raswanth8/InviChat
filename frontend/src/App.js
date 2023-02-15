@@ -16,7 +16,7 @@ function App() {
   useEffect(() => {
     function fetchProducts() {
       axios
-        .get("https://invichat-website-server.azurewebsites.net/getProducts")
+        .get("https://invichat-website-server.azurewebsites.net/products")
         .then((response) => {
           console.log(response.data);
           setData(response.data);
