@@ -1,13 +1,17 @@
 import React from "react";
 import Navbar from "../Navbar";
+import Login from "./Login";
+import "./Login.css";
 
-const SellerView = () => {
-    return (
-        <>
-            <Navbar />
-            <h1>Welcome to the seller Portal</h1>
-        </>
-    )
+function sellerView() {
+  return (
+    <>
+      <Navbar />
+      <div className="back">
+        <Login />
+      </div>
+    </>
+  );
 }
 
-export default SellerView;
+export default sellerView;

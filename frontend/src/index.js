@@ -5,6 +5,9 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import SellerView from "./components/sellerView/sellerView";
+import AdminDashboard from "./components/sellerView/adminPanel";
+// import Products from "./components/sellerView/Products";
+// import Orders from "./components/sellerView/Orders";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -17,6 +20,18 @@ const router = createBrowserRouter([
     path: "/seller",
     element: <SellerView />,
   },
+  {
+    path: "/admin-panel",
+    element: <AdminDashboard />,
+  },
+  // {
+  //   path: "/admin-panel/orders",
+  //   element: <Orders />,
+  // },
+  // {
+  //   path: "/admin-panel/products",
+  //   element: <Products />,
+  // },
 ]);
 root.render(
   <React.StrictMode>
