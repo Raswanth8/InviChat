@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 //import Navbar from "../Navbar";
 import styled, { keyframes } from "styled-components";
+import sidebaricon from "./sidebaricon.png";
 
 const Sidebar = styled.div`
   position: fixed;
@@ -56,12 +57,12 @@ const CloseButton = styled.button`
 
 const MenuButton = styled.button`
   position: fixed;
-  top: 20px;
-  right: 20px;
-  font-size: 24px;
-  color: #fff;
+  top: 50px;
+  right: 40px;
+  font-size: 15px;
+  color: white;
   border: none;
-  background-color: transparent;
+  background-color: white;
   cursor: pointer;
   z-index: 1000;
 
