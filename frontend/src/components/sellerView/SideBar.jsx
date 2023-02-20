@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 //import Navbar from "../Navbar";
 import styled, { keyframes } from "styled-components";
-import sidebaricon from "./sidebaricon.png";
+import { Link } from "react-router-dom";
 
 const Sidebar = styled.div`
   position: fixed;
@@ -108,7 +108,9 @@ export default function SideBar() {
           <i className="fa fa-times"></i>
         </CloseButton>
         <List>
-          <ListItem>Product View</ListItem>
+          <Link to="">
+            <ListItem>Product View</ListItem>
+          </Link>
           <ListItem>Users View</ListItem>
           <ListItem>Seller View</ListItem>
           <ListItem>Wait for Option 4</ListItem>

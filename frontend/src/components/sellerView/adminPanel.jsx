@@ -7,6 +7,7 @@ import axios from "axios";
 import { MdMarkChatRead } from "react-icons/md";
 import { Link as LinkScroll } from "react-scroll";
 import { Link } from "react-router-dom";
+import Contact from "../Contact";
 
 export default function AdminPanel() {
   const [products, setProducts] = useState([]);
@@ -102,43 +103,58 @@ export default function AdminPanel() {
       </nav>
 
       <div className="container">
-        <table className="table table-striped table-hover table-bordered table-custom">
-          <thead className="thead-dark">
-            <tr>
-              <th>ID</th>
-              <th>Name</th>
-              <th>Description</th>
-              <th>Price</th>
-              <th></th>
-              <th></th>
-            </tr>
-          </thead>
-          <tbody>
-            {products.map((product) => (
-              <tr key={product._id}>
-                <td>{product.productId}</td>
-                <td>{product.productName}</td>
-                <td>{product.productDescription}</td>
-                <td>{product.productPrice}</td>
-                <td>
-                  <button type="button" className="btn btn-primary">
-                    Edit
-                  </button>
-                </td>
-                <td>
-                  <button
-                    type="button"
-                    className="btn btn-danger"
-                    onClick={() => handleDelete(product.productId)}
-                  >
-                    Delete
-                  </button>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+        <div className="card">
+          <div className="card-body">
+            <table className="table table-striped table-hover table-bordered table-custom">
+              <thead className="thead-dark">
+                <tr>
+                  <th>ID</th>
+                  <th>Name</th>
+                  <th>Description</th>
+                  <th>Price</th>
+                  <th></th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                {products.map((product) => (
+                  <tr key={product._id}>
+                    <td>{product.productId}</td>
+                    <td>{product.productName}</td>
+                    <td>{product.productDescription}</td>
+                    <td>{product.productPrice}</td>
+                    <td>
+                      <button type="button" className="btn btn-primary">
+                        Edit
+                      </button>
+                    </td>
+                    <td>
+                      <button
+                        type="button"
+                        className="btn btn-danger"
+                        onClick={() => handleDelete(product.productId)}
+                      >
+                        Delete
+                      </button>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
       </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <Contact />
     </>
   );
 }

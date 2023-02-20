@@ -2,7 +2,7 @@ import React from "react";
 import { MdMarkChatRead } from "react-icons/md";
 import { Link as LinkScroll } from "react-scroll";
 import { Link } from "react-router-dom";
-import SideBar from "./sellerView/SideBar";
+
 
 export default function Navbar() {
   return (
